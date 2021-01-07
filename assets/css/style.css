@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Landa';
+    src: url('../fonts/landasans.woff');
+}
+body {
+    font-family: Landa, sans-serif;
+}
+caption {
+    caption-side: top;
+    text-align: center;
+}
+h3 {
+    width: fit-content;
+}
+th {
+    width: 14.26%;
+}
+td.dark-cell {
+    background-color: #aaaaaa;
+}
+textarea {
+    width: 100%;
+}
+.note-actions img {
+    transition: transform 0.2s;
+}
+.note-actions img:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+}
+#previousMonthLabel {
+    cursor: url('../img/arrow_left.png'), pointer;
+}
+#nextMonthLabel {
+    cursor: url('../img/arrow_right.png'), pointer;
+}
